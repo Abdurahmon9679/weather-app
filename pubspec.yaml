@@ -1,0 +1,55 @@
+name: weather_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  # for state management
+  get: ^4.6.5
+
+  # for connected with network
+  retrofit: ^3.0.1+1
+
+  # for Console output
+  logger: ^1.1.0
+
+  # for location
+  geolocator: ^9.0.0
+
+  json_annotation:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  retrofit_generator: ^4.0.1
+  build_runner: ^2.1.11
+  json_serializable: ^6.2.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
